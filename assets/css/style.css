@@ -3,23 +3,28 @@
 .cursr-pointer {
     cursor: pointer;
 }
-.bg-nav{
+
+.bg-nav {
     background: rgba(0, 0, 0, 0.60);
 }
-.leftimg1{
+
+.leftimg1 {
     top: -2%;
     left: 0;
 }
-.rightimg1{
+
+.rightimg1 {
     top: -2%;
     right: 0;
 }
-.centerimg1{
+
+.centerimg1 {
     top: 35%;
-    left: 0; 
+    left: 0;
     right: 0;
     z-index: -2;
 }
+
 /* nav bar  */
 .py-20 {
     padding-top: 20px;
@@ -32,12 +37,24 @@
 }
 
 .dropdown-item:hover {
-    background-color: lightsalmon;
-    color: #fff;
+    background-color: var(--black2);
+    color: var(--black2);
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: unset !important;
+    color: #FFF !important;
+    transition: all linear 300ms;
+}
+
+.dropdown-item:active {
+    background-color: unset !important;
 }
 
 .dropdown .dropdown-menu {
     display: none;
+    background-color: var(--black2) !important;
 }
 
 .dropdown:hover>.dropdown-menu,
@@ -49,6 +66,25 @@
 
 .gap-32 {
     gap: 32px;
+}
+
+.underLine::before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    border-radius: 14px;
+    background-color: var(--grey2);
+    bottom: 0;
+    left: 10%;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.underLine:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
 /* section 1  */
@@ -101,18 +137,23 @@
 .overflow-x-auto::-webkit-scrollbar {
     display: none;
 }
-.max-250{
+
+.max-250 {
     max-width: 250px;
 }
-.max-270{
+
+.max-270 {
     max-width: 270px;
 }
-.lh-27{
+
+.lh-27 {
     line-height: 27px;
 }
-.mt_2{
+
+.mt_2 {
     margin-top: 2px !important;
 }
+
 /* section 3  */
 .sky-dot {
     width: 4.286px;
@@ -123,11 +164,13 @@
 .p-32 {
     padding: 32px !important;
 }
-.verticle-line{
+
+.verticle-line {
     width: 2px;
-height: 33px;
-flex-shrink: 0;
+    height: 33px;
+    flex-shrink: 0;
 }
+
 /* menu icon  */
 .menu span {
     display: flex;
@@ -158,6 +201,29 @@ flex-shrink: 0;
 .span6 {
     display: none !important;
     transition: .4s
+}
+
+/* section 4  */
+.p-10-14 {
+    padding: 10px 14px !important;
+}
+
+.bordr-1 {
+    border: 1px solid #111 !important;
+    background: #111;
+}
+
+.active {
+    /* background-color: var(--black3) !important; */
+    border: 1px solid #A962FF !important;
+}
+
+.max-400 {
+    max-height: 400px !important;
+}
+
+.min-400 {
+    min-height: 400px !important;
 }
 
 @media(min-width:576px) {

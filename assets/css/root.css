@@ -7,6 +7,7 @@
     --grey4: #E6E6E6;
     --blue: #A962FF;
     --blue2: #9945FF;
+    --yellow:#FFD512;
     --blue-grey: #618ADC;
     --sky: #1FCFF1;
     --green-grey: #19FB9B;
@@ -39,8 +40,8 @@
     --fs-6xl: 45px;
     --fs-6xl1: 48px;
     --fs-6xl2: 51px;
-    --fs-9xl: 74px;
-    --fs-10xl: 80px;
+    --fs-9xl: 69px;
+    --fs-10xl: 70px;
     /* font family  */
     --ff-robot: 'Roboto', sans-serif;
     --ff-Hel: 'Helvetica', sans-serif;
@@ -74,7 +75,9 @@
 .bs-blue2 {
     color: var(--blue2) !important;
 }
-
+.bg-blue{
+    background-color: var(--blue2) !important;
+}
 .bs-blue-grey {
     color: var(--blue-grey) !important;
 }
@@ -82,9 +85,17 @@
 .bs-sky {
     color: var(--sky) !important;
 }
-
+.bg-sky{
+    background-color: var(--sky) !important;
+}
+.bg-yellow{
+    background-color: var(--yellow);
+}
 .bs-green-grey {
     color: var(--green-grey) !important;
+}
+.bg-green-grey {
+    background-color: var(--green-grey) !important;
 }
 
 .bs-green-grey2 {

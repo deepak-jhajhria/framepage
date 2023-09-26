@@ -3,7 +3,23 @@
 .cursr-pointer {
     cursor: pointer;
 }
-
+.bg-nav{
+    background: rgba(0, 0, 0, 0.60);
+}
+.leftimg1{
+    top: -2%;
+    left: 0;
+}
+.rightimg1{
+    top: -2%;
+    right: 0;
+}
+.centerimg1{
+    top: 35%;
+    left: 0; 
+    right: 0;
+    z-index: -2;
+}
 /* nav bar  */
 .py-20 {
     padding-top: 20px;
@@ -57,9 +73,61 @@
 }
 
 .spacing-1 {
-    letter-spacing: 0.8px;
+    letter-spacing: 1px !important;
 }
 
+/* section 2  */
+.bs-gradient1 {
+    background: linear-gradient(262deg, #19FB9B 40%, #8C01FA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bs-gradient2 {
+    background: linear-gradient(260deg, #0047FF 43.37%, #00BCD4 109.53%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bs-gradient3 {
+    background: linear-gradient(265deg, #00FFBD 5.84%, #025B8C 111.58%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+    display: none;
+}
+.max-250{
+    max-width: 250px;
+}
+.max-270{
+    max-width: 270px;
+}
+.lh-27{
+    line-height: 27px;
+}
+.mt_2{
+    margin-top: 2px !important;
+}
+/* section 3  */
+.sky-dot {
+    width: 4.286px;
+    height: 4.471px;
+    background-color: var(--sky);
+}
+
+.p-32 {
+    padding: 32px !important;
+}
+.verticle-line{
+    width: 2px;
+height: 33px;
+flex-shrink: 0;
+}
 /* menu icon  */
 .menu span {
     display: flex;

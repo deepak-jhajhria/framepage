@@ -1,0 +1,16 @@
+@import url(../css/root.css);
+/* nav-2 */
+.dropdown ul{
+    display: none;
+    position: absolute;
+    transition: .3s;
+}
+.dropdown:hover ul{
+    display: block;
+}
+.dropdown:hover svg{
+    rotate: 180deg;
+}
+.gap-30{
+    gap: 30px;
+}

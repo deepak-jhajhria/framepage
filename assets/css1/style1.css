@@ -1,4 +1,4 @@
-@import url(../css1/root1.css);
+@import url(../css/root.css);
 
 /* nav-2 */
 .dropdown ul {
@@ -84,7 +84,7 @@
 
 /* sec-2 */
 .card_sec2 {
-    background-image: url(../image/card-sec2-img.png);
+    background-image: url(../image/card_sec2-img.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 370px;
@@ -101,7 +101,7 @@
 }
 
 .card_sec2-img1 {
-    background-image: url(../image/card-sec2-img1.png);
+    background-image: url(../image/card_sec2-img1.png);
     min-height: 320px;
     background-repeat: no-repeat;
     padding: 40px 31px;
@@ -110,7 +110,7 @@
 }
 
 .card_sec2-img2 {
-    background-image: url(../image/card-sec2-img2.png);
+    background-image: url(../image/card_sec2-img2.png);
     min-height: 320px;
     background-repeat: no-repeat;
     padding: 40px 31px;
@@ -119,7 +119,7 @@
 }
 
 .card_sec2-img3 {
-    background-image: url(../image/card-sec2-img3.png);
+    background-image: url(../image/card_sec2-img3.png);
     min-height: 320px;
     background-repeat: no-repeat;
     padding: 40px 31px;
@@ -128,7 +128,7 @@
 }
 
 .card_sec2-img4 {
-    background-image: url(../image/card-sec2-img4.png);
+    background-image: url(../image/card_sec2-img4.png);
     min-height: 320px;
     background-repeat: no-repeat;
     padding: 40px 31px;
@@ -137,7 +137,7 @@
 }
 
 .card_sec2-img5 {
-    background-image: url(../image/card-sec2-img5.png);
+    background-image: url(../image/card_sec2-img5.png);
     min-height: 320px;
     background-repeat: no-repeat;
     padding: 40px 31px;
@@ -146,7 +146,7 @@
 }
 
 .card_sec2-img6 {
-    background-image: url(../image/card-sec2-img6.png);
+    background-image: url(../image/card_sec2-img6.png);
     min-height: 320px;
     background-repeat: no-repeat;
     padding: 40px 31px;
@@ -164,6 +164,7 @@
     min-height: 282px;
     border-radius: 12px;
     padding: 31px;
+    background: #19161C;
 }
 
 .letter-spacing {

@@ -7,9 +7,12 @@
     --grey2: #C4C4C4;
     --grey3: #BABABA;
     --grey4: #E6E6E6;
+    --grey5:#19161C;
     --blue: #A962FF;
+    --pink:#F087FF;
     --blue2: #9945FF;
     --yellow: #FFD512;
+    --yellow2:#FFEB3B;
     --blue-grey: #618ADC;
     --sky: #1FCFF1;
     --green-grey: #19FB9B;
@@ -77,11 +80,15 @@
 .bs-grey3 {
     color: var(--grey3) !important;
 }
-
+.bg-grey5{
+    background-color: var(--grey5) !important;
+}
 .bs-grey4 {
     color: var(--grey4) !important;
 }
-
+.bs-pink{
+    color: var(--pink) !important;
+}
 .bs-blue {
     color: var(--blue) !important;
 }
@@ -109,7 +116,9 @@
 .bg-yellow {
     background-color: var(--yellow);
 }
-
+.bs-yellow2{
+    color: var(--yellow2) !important;
+}
 .bs-green-grey {
     color: var(--green-grey) !important;
 }

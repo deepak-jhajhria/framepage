@@ -66,9 +66,9 @@
 
 .sec1-img {
     max-width: 636.185px;
-    height: 642px;
+    width: 100%;
     z-index: 1;
-    position: sticky;
+    position: relative;
 }
 
 .sec1-ellepis {
@@ -323,4 +323,13 @@ input {
 
 .mt-80 {
     margin-top: 80px;
+}
+@media (max-width:992px) {
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
 }

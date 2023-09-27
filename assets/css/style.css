@@ -1,0 +1,372 @@
+@import url(./root.css);
+
+.cursr-pointer {
+    cursor: pointer;
+}
+
+.bg-nav {
+    background: rgba(0, 0, 0, 0.60);
+}
+
+.leftimg1 {
+    top: -2%;
+    left: 0;
+}
+
+.rightimg1 {
+    top: -2%;
+    right: 0;
+}
+
+.centerimg1 {
+    top: 35%;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+
+/* nav bar  */
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wh-logo {
+    width: 141.688px;
+    height: 21px;
+}
+
+.dropdown-item:hover {
+    background-color: var(--black2);
+    color: var(--black2);
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: unset !important;
+    color: #FFF !important;
+    transition: all linear 300ms;
+}
+
+.dropdown-item:active {
+    background-color: unset !important;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+    background-color: var(--black2) !important;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.underLine::before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    border-radius: 14px;
+    background-color: var(--grey2);
+    bottom: 0;
+    left: 10%;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.underLine:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+/* section 1  */
+.pt-120 {
+    padding-top: 50px;
+}
+
+.max-589 {
+    max-width: 589px;
+}
+
+.p-16-33 {
+    padding: 16px 33px !important;
+}
+
+.btn-border-black {
+    border: 1px solid black !important;
+}
+
+.btn-border-white {
+    border: 1px solid #FFF !important;
+}
+
+.spacing-1 {
+    letter-spacing: 1px !important;
+}
+
+/* section 2  */
+.bs-gradient1 {
+    background: linear-gradient(262deg, #19FB9B 40%, #8C01FA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bs-gradient2 {
+    background: linear-gradient(260deg, #0047FF 43.37%, #00BCD4 109.53%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bs-gradient3 {
+    background: linear-gradient(265deg, #00FFBD 5.84%, #025B8C 111.58%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+    display: none;
+}
+
+.max-250 {
+    max-width: 250px;
+}
+
+.max-270 {
+    max-width: 270px;
+}
+
+.lh-27 {
+    line-height: 27px;
+}
+
+.mt_2 {
+    margin-top: 2px !important;
+}
+
+/* section 3  */
+.sky-dot {
+    width: 4.286px;
+    height: 4.471px;
+    background-color: var(--sky);
+}
+
+.p-32 {
+    padding: 32px !important;
+}
+
+.verticle-line {
+    width: 2px;
+    height: 33px;
+    flex-shrink: 0;
+}
+
+/* menu icon  */
+.menu span {
+    display: flex;
+    width: 26px;
+    height: 3px;
+    margin-top: 4px;
+    background-color: var(--grey2);
+    transition: .4s;
+    border-radius: 12px;
+}
+
+.span4 {
+    rotate: 45deg;
+    transition: .4s
+}
+
+.transition-4 {
+    transition: .4s
+}
+
+.span5 {
+    rotate: -45deg;
+    position: relative;
+    top: -7px;
+    transition: .4s
+}
+
+.span6 {
+    display: none !important;
+    transition: .4s
+}
+
+/* section 4  */
+.p-10-14 {
+    padding: 10px 14px !important;
+}
+
+.bordr-1 {
+    border: 1px solid #111 !important;
+    background: #111;
+}
+
+.active {
+    /* background-color: var(--black3) !important; */
+    border: 1px solid #A962FF !important;
+}
+
+.max-400 {
+    max-height: 400px !important;
+}
+
+.min-400 {
+    min-height: 400px !important;
+}
+ /* section 5  */
+/* .wh-card{
+    width: 300px;
+    height: 200px;
+} */
+.slider{
+    min-height: 420px;
+}
+.max-600{
+    max-width: 600px !important;
+}
+/* section 6  */
+.lh-46{
+    line-height: 46px;
+}
+.max-736{
+    max-width: 736px;
+}
+@media(min-width:576px) {
+    :root {
+        /* font size  */
+        --fs-xs: 10px;
+        --fs-xs2: 11px;
+        --fs-xs3: 13px;
+        --fs-xs4: 14px;
+        --fs-sm: 15px;
+        --fs-sm2: 16px;
+        --fs-sm3: 17px;
+        --fs-sm4: 18px;
+        --fs-sm5: 19px;
+        --fs-lg: 20px;
+        --fs-lg2: 23px;
+        --fs-xl: 24px;
+        --fs-2xl: 25px;
+        --fs-2xl2: 26px;
+        --fs-2xl3: 30px;
+        --fs-3xl: 32px;
+        --fs-3xl1: 33px;
+        --fs-3xl2: 34px;
+        --fs-3xl3: 35px;
+        --fs-4xl: 38px;
+        --fs-6xl: 52px;
+        --fs-6xl1: 56px;
+        --fs-6xl2: 61px;
+        --fs-9xl: 84px;
+        --fs-10xl: 90px;
+    }
+
+    .pt-120 {
+        padding-top: 60px;
+    }
+}
+
+@media(max-width:768px) {
+    .mobileView {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        position: fixed;
+        z-index: -1;
+        top: 13%;
+        width: 50%;
+        min-width: 200px;
+        height: 100%;
+        /* background-color: var(--black2); */
+        background-color: black;
+        left: -70%;
+        transition: all 500ms linear;
+        z-index: 3;
+    }
+
+    .mobileView.show {
+        left: 0;
+    }
+
+    .menu {
+        z-index: 4;
+        cursor: pointer;
+    }
+}
+
+@media(min-width:768px) {
+    .menu {
+        display: none;
+    }
+
+    .wh-logo {
+        width: 181.688px;
+        height: 27px;
+    }
+
+    .menu span {
+        display: flex;
+        width: 30px;
+        height: 3px;
+        margin-top: 5px;
+        background-color: var(--grey2);
+        transition: .4s;
+        border-radius: 12px;
+    }
+
+    .span5 {
+        top: -8px;
+    }
+
+    .pt-120 {
+        padding-top: 80px;
+    }
+}
+
+@media(min-width:992px) {
+    :root {
+        /* font size  */
+        --fs-xs: 11px;
+        --fs-xs2: 12px;
+        --fs-xs3: 14px;
+        --fs-xs4: 15px;
+        --fs-sm: 16px;
+        --fs-sm2: 17px;
+        --fs-sm3: 18px;
+        --fs-sm4: 19px;
+        --fs-sm5: 20px;
+        --fs-lg: 21px;
+        --fs-lg2: 25px;
+        --fs-xl: 26px;
+        --fs-2xl: 28px;
+        --fs-2xl2: 32px;
+        --fs-2xl3: 35px;
+        --fs-3xl: 36px;
+        --fs-3xl1: 37px;
+        --fs-3xl2: 38px;
+        --fs-3xl3: 39px;
+        --fs-4xl: 42px;
+        --fs-6xl: 60px;
+        --fs-6xl1: 68px;
+        --fs-6xl2: 70px;
+        --fs-9xl: 94px;
+        --fs-10xl: 101px;
+    }
+
+    .pt-120 {
+        padding-top: 120px;
+    }
+}

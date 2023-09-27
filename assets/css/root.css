@@ -1,0 +1,272 @@
+<<<<<<< Updated upstream
+=======
+:root {
+    /* color  */
+    --black3: #111111;
+    --black2: #1A1A1A;
+    --black4: #0B090B;
+    --grey1: #848895;
+    --grey2: #C4C4C4;
+    --grey3: #BABABA;
+    --grey4: #E6E6E6;
+    --grey5:#19161C;
+    --blue: #A962FF;
+    --pink:#F087FF;
+    --blue2: #9945FF;
+    --yellow: #FFD512;
+    --yellow2:#FFEB3B;
+    --blue-grey: #618ADC;
+    --sky: #1FCFF1;
+    --green-grey: #19FB9B;
+    --green-grey2: #14F195;
+    --s-gradient1: linear-gradient(262deg, #19FB9B -8.01%, #8C01FA 100%);
+    --s-gradient2: linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%);
+    --s-gradient3: linear-gradient(265deg, #00FFBD -5.84%, #025B8C 111.58%);
+    --s-button: linear-gradient(99deg, #8C01FA -2.99%, #000 102.28%);
+    /* font size  */
+    --fs-xs: 10px;
+    --fs-xs2: 11px;
+    --fs-xs3: 12px;
+    --fs-xs4: 13px;
+    --fs-sm: 14px;
+    --fs-sm2: 15px;
+    --fs-sm3: 16px;
+    --fs-sm4: 17px;
+    --fs-sm5: 18px;
+    --fs-lg: 19px;
+    --fs-lg2: 21px;
+    --fs-xl: 22px;
+    --fs-2xl: 23px;
+    --fs-2xl2: 24px;
+    --fs-2xl3: 28px;
+    --fs-3xl: 30px;
+    --fs-3xl1: 31px;
+    --fs-3xl2: 32px;
+    --fs-3xl3: 33px;
+    --fs-4xl: 35px;
+    --fs-6xl: 45px;
+    --fs-6xl1: 48px;
+    --fs-6xl2: 51px;
+    --fs-9xl: 69px;
+    --fs-10xl: 70px;
+    /* font family  */
+    --ff-robot: 'Roboto', sans-serif;
+    --ff-Hel: 'Helvetica', sans-serif;
+}
+
+/* color  */
+.bg-black3 {
+    background-color: var(--black3) !important;
+}
+
+.bs-black2 {
+    color: var(--black2) !important;
+}
+
+.bg-black2 {
+    background-color: var(--black2) !important;
+}
+
+.bg-black4 {
+    background-color: var(--black4) !important;
+}
+
+.bs-grey1 {
+    color: var(--grey1) !important;
+}
+
+.bs-grey2 {
+    color: var(--grey2) !important;
+}
+
+.bs-grey3 {
+    color: var(--grey3) !important;
+}
+.bg-grey5{
+    background-color: var(--grey5) !important;
+}
+.bs-grey4 {
+    color: var(--grey4) !important;
+}
+.bs-pink{
+    color: var(--pink) !important;
+}
+.bs-blue {
+    color: var(--blue) !important;
+}
+
+.bs-blue2 {
+    color: var(--blue2) !important;
+}
+
+.bg-blue {
+    background-color: var(--blue2) !important;
+}
+
+.bs-blue-grey {
+    color: var(--blue-grey) !important;
+}
+
+.bs-sky {
+    color: var(--sky) !important;
+}
+
+.bg-sky {
+    background-color: var(--sky) !important;
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+.bs-yellow2{
+    color: var(--yellow2) !important;
+}
+.bs-green-grey {
+    color: var(--green-grey) !important;
+}
+
+.bg-green-grey {
+    background-color: var(--green-grey) !important;
+}
+
+.bs-green-grey2 {
+    color: var(--green-grey2) !important;
+}
+
+.bs-gradient1 {
+    color: var(--s-gradient1) !important;
+}
+
+.bs-gradient2 {
+    color: var(--s-gradient2) !important;
+}
+
+.bg-gradient2 {
+    background-color: var(--s-gradient2) !important;
+    background: var(--s-gradient-2, linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%));
+}
+
+.bs-gradient3 {
+    color: var(--s-gradient3) !important;
+}
+
+.bs-button {
+    color: var(--s-button) !important;
+}
+
+.bg-s-gradient {
+    background-color: var(--s-button) !important;
+    background: var(--S-button, linear-gradient(99deg, #8C01FA -2.99%, #000 102.28%)) !important;
+
+}
+
+/* font size  */
+.fs-xs {
+    font-size: var(--fs-xs) !important;
+}
+
+.fs-xs2 {
+    font-size: var(--fs-xs2) !important;
+}
+
+.fs-xs3 {
+    font-size: var(--fs-xs3) !important;
+}
+
+.fs-xs4 {
+    font-size: var(--fs-xs4) !important;
+}
+
+.fs-sm {
+    font-size: var(--fs-sm) !important;
+}
+
+.fs-sm2 {
+    font-size: var(--fs-sm2) !important;
+}
+
+.fs-sm3 {
+    font-size: var(--fs-sm3) !important;
+}
+
+.fs-sm4 {
+    font-size: var(--fs-sm4) !important;
+}
+
+.fs-sm5 {
+    font-size: var(--fs-sm5) !important;
+}
+
+.fs-lg {
+    font-size: var(--fs-lg) !important;
+}
+
+.fs-lg2 {
+    font-size: var(--fs-lg2) !important;
+}
+
+.fs-xl {
+    font-size: var(--fs-xl) !important;
+}
+
+.fs-2xl {
+    font-size: var(--fs-2xl) !important;
+}
+
+.fs-2xl2 {
+    font-size: var(--fs-2xl2) !important;
+}
+
+.fs-2xl3 {
+    font-size: var(--fs-2xl3) !important;
+}
+
+.fs-3xl {
+    font-size: var(--fs-3xl) !important;
+}
+
+.fs-3xl1 {
+    font-size: var(--fs-3xl1) !important;
+}
+
+.fs-3xl2 {
+    font-size: var(--fs-3xl2) !important;
+}
+
+.fs-3xl3 {
+    font-size: var(--fs-3xl3) !important;
+}
+
+.fs-4xl {
+    font-size: var(--fs-4xl) !important;
+}
+
+.fs-6xl {
+    font-size: var(--fs-6xl) !important;
+}
+
+.fs-6xl1 {
+    font-size: var(--fs-6xl1) !important;
+}
+
+.fs-6xl2 {
+    font-size: var(--fs-6xl2) !important;
+}
+
+.fs-9xl {
+    font-size: var(--fs-9xl) !important;
+}
+
+.fs-10xl {
+    font-size: var(--fs-10xl) !important;
+}
+
+/* font family  */
+.ff-robot {
+    font-family: var(--ff-robot) !important;
+}
+
+.ff-hel {
+    font-family: var(--ff-Hel) !important;
+}
+>>>>>>> Stashed changes

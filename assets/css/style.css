@@ -19,7 +19,7 @@
 }
 
 .centerimg1 {
-    top: 35%;
+    top: 17%;
     left: 0;
     right: 0;
     z-index: -2;
@@ -242,6 +242,18 @@
 }
 .max-736{
     max-width: 736px;
+}
+/* footer  */
+.mt_5{
+    margin-top: -5px;
+}
+.buttomimg{
+    bottom: 3%;
+}
+.bg-footer{
+    border-radius: 12px 12px 0px 0px;
+border: 1px solid #141414;
+background: #000508;
 }
 @media(min-width:576px) {
     :root {

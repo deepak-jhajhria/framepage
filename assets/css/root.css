@@ -3,6 +3,7 @@
     --black3: #111111;
     --black2: #1A1A1A;
     --black4: #0B090B;
+    --black5:#000508;
     --grey1: #848895;
     --grey2: #C4C4C4;
     --grey3: #BABABA;
@@ -67,6 +68,9 @@
 
 .bg-black4 {
     background-color: var(--black4) !important;
+}
+.bg-black5{
+    background-color: var(--black5) !important;
 }
 
 .bs-grey1 {

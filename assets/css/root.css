@@ -42,12 +42,15 @@
     --fs-3xl1: 31px;
     --fs-3xl2: 32px;
     --fs-3xl3: 33px;
+    --fs-3xl4: 34px;
     --fs-4xl: 35px;
     --fs-6xl: 45px;
     --fs-6xl1: 48px;
     --fs-6xl2: 51px;
     --fs-9xl: 60px;
     --fs-10xl: 70px;
+    --fs-10xl1:72px;
+    --fs-10xl2:74px;
     /* font family  */
     --ff-robot: 'Roboto', sans-serif;
     --ff-Hel: 'Helvetica', sans-serif;
@@ -238,6 +241,9 @@
 .fs-3xl3 {
     font-size: var(--fs-3xl3) !important;
 }
+.fs-3xl4 {
+    font-size: var(--fs-3xl4) !important;
+}
 
 .fs-4xl {
     font-size: var(--fs-4xl) !important;
@@ -261,6 +267,12 @@
 
 .fs-10xl {
     font-size: var(--fs-10xl) !important;
+}
+.fs-10xl1 {
+    font-size: var(--fs-10xl1) !important;
+}
+.fs-10xl2 {
+    font-size: var(--fs-10xl2) !important;
 }
 
 /* font family  */

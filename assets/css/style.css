@@ -1,5 +1,14 @@
 @import url(./root.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@font-face {
+    font-family: "Helvetica";
+    src:
+      local("Helvetica"),
+      url("/assets/Helvetica-Font/Helvetica-Bold.ttf"),
+      url("/assets/Helvetica-Font/Helvetica-BoldOblique.ttf"),
+      url("trickster-outline.woff") format("woff");
+  }
+  
 .cursr-pointer {
     cursor: pointer;
 }
@@ -7,7 +16,16 @@
 .bg-nav {
     background: rgba(0, 0, 0, 0.60) !important;
 }
-
+.nav-link:hover{
+    color: var(--grey4) !important;
+    font-weight: 700 !important;
+}
+.nav-btn svg{
+    fill: var(--grey1) !important;
+}
+.nav-btn:hover svg{
+    fill: var(--grey4) !important;
+}
 .leftimg1 {
     top: -2%;
     left: 0;
@@ -232,16 +250,43 @@
     min-height: 400px !important;
 }
  /* section 5  */
-/* .wh-card{
+ .wh-card{
+    width: 300px !important;
+    height: 200px !important;
+ }
+ .w-300{
     width: 300px;
+ }
+ .h-420{
+    height: 420px;
+ }
+ .community-bg-img{
+    background-image: url("../images/thriving-community-bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-box {
+    border-radius: 8px;
+    max-width: 300px;
     height: 200px;
-} */
-.slider{
-    min-height: 420px;
+    background-color: #19161C;
 }
-.max-600{
-    max-width: 600px !important;
-}
+  .slick-slide {
+    margin: 0 10px; 
+  }  
+  .slick-list {
+    margin: 0 -10px; 
+  }
+.slider {
+    overflow: hidden; 
+  } 
+  .mxw-195{
+    max-width: 195px;
+  }
+  .mxw-736{
+    max-width: 736px;
+  }
+
 /* section 6  */
 .lh-46{
     line-height: 46px;
@@ -283,12 +328,15 @@ background: #000508;
         --fs-3xl1: 33px;
         --fs-3xl2: 34px;
         --fs-3xl3: 35px;
+        --fs-3xl4: 36px;
         --fs-4xl: 38px;
         --fs-6xl: 52px;
         --fs-6xl1: 56px;
         --fs-6xl2: 61px;
         --fs-9xl: 84px;
         --fs-10xl: 90px;
+        --fs-10xl1:93px;
+        --fs-10xl2:95px;
     }
 
     .pt-120 {
@@ -376,12 +424,15 @@ background: #000508;
         --fs-3xl1: 37px;
         --fs-3xl2: 38px;
         --fs-3xl3: 39px;
+        --fs-3xl4: 40px;
         --fs-4xl: 42px;
         --fs-6xl: 60px;
         --fs-6xl1: 68px;
         --fs-6xl2: 70px;
         --fs-9xl: 94px;
         --fs-10xl: 101px;
+        --fs-10xl1:106px;
+        --fs-10xl2:110px;
     }
 
     .pt-120 {

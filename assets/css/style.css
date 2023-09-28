@@ -201,9 +201,10 @@
     width: 26px;
     height: 3px;
     margin-top: 4px;
-    background-color: var(--grey2);
+    background: linear-gradient(44.76deg, #9945FF 10.43%, #8752F3 30.84%, #5497D5 49.4%, #43B4CA 58.68%, #28E0B9 69.82%, #19FB9B 93.01%);
     transition: .4s;
-    border-radius: 12px;
+    border-radius: 2px;
+    transform: skewX(40deg);
 }
 
 .span4 {
@@ -352,13 +353,13 @@ background: #000508;
         flex-direction: column !important;
         position: fixed;
         z-index: -1;
-        top: 13%;
+        top: 0%;
         width: 50%;
-        min-width: 200px;
+        min-width: 320px;
         height: 100%;
         /* background-color: var(--black2); */
-        background-color: black;
-        left: -70%;
+        background: linear-gradient(99deg, #8C01FA -2.99%, #000 102.28%) !important;
+        left: -80%;
         transition: all 500ms linear;
         z-index: 3;
     }

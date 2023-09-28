@@ -150,6 +150,10 @@
     background-color: var(--s-gradient2) !important;
     background: var(--s-gradient-2, linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%));
 }
+.bg-gradientnav2{
+    background-color: var(--s-gradient2) !important;
+    background: var(--s-gradient-2, linear-gradient(260deg, #0047FF 15.37%, #00BCD4 109.53%));
+}
 
 .bs-gradient3 {
     color: var(--s-gradient3) !important;

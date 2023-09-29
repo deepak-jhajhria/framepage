@@ -477,7 +477,32 @@ border: 1px solid transparent !important;
     background: white !important;
     color: #000 !important;
 }
-
+.btn1-page2{
+    border: 2px solid transparent;
+    transition: .4s;
+}
+.btn1-page2:hover{
+    border:2px solid #11fd9b;
+    background: transparent !important;
+    color: #11fd9b !important;
+}
+.btn2{
+    transition: .4s;
+    border: 1px solid white;
+}
+.btn2:hover{
+    background: white !important;
+    color: #000 !important;
+}
+.btn5{
+    transition: .4s;
+    border: 2px solid transparent;
+}
+.btn5:hover{
+    border:2px solid #11fd9b !important;
+    background: transparent !important;
+    color: #11fd9b !important;
+}
 /* mediaquiry */
 
 @media(min-width:576px) {

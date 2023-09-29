@@ -216,46 +216,36 @@ html{
 
 /* section 5  */
 
-.wh-card {
+.slider-box {
     width: 300px !important;
     height: 200px !important;
-}
-
-.w-300 {
-    width: 300px;
-}
-
-.h-420 {
-    height: 420px;
-}
-
-.slider-box {
-    border-radius: 8px;
-    max-width: 300px;
-    height: 200px;
     background-color: #19161C;
 }
 
 .slick-slide {
+    width: 300px !important;
     margin: 0 10px;
+    /* add margin to the slides */
 }
 
 .slick-list {
-    margin: 0 -10px;
+    margin: 0 -10px !important;
 }
-
 .slider {
-    overflow: hidden;
+    overflow: hidden !important;
 }
-
-.mxw-195 {
-    max-width: 195px;
+.wh-3-2{
+    max-width: 300px;
+    height: 200px;
 }
-
-.mxw-736 {
-    max-width: 736px;
+.wh-6-4{
+    width: 600px;
+    height: 425px;
 }
-
+.wh-3-4{
+    max-width: 300px;
+    height: 425px;
+}
 /* section 6  */
 
 .lh-46 {
@@ -357,6 +347,12 @@ transform: translateY(-3px);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 370px;
+}
+.card_sec2:hover{
+    filter: hue-rotate(17deg) !important;
+}
+.card-sec2:hover{
+    filter: hue-rotate(17deg) !important;
 }
 .ch-1 {
     border-radius: 16px;

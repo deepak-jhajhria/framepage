@@ -299,6 +299,7 @@ html{
 color: white !important;
 background: var( --s-gradient1) !important;
 border: 1px solid transparent !important;
+    transform: translateY(-3px);
 }
 .btn2-page1{
     transition: .4s;
@@ -307,6 +308,10 @@ border: 1px solid transparent !important;
 color: black !important;
 background: white !important;
 border: 1px solid transparent !important;
+transform: translateY(-3px);
+}
+.nav-text:hover{
+    color: white !important;
 }
 /* page 2  */
 
@@ -432,6 +437,7 @@ border: 1px solid transparent !important;
 .btn3:hover{
     background-color: white;
     color: #000 !important;
+    transform: translateY(-3px);
 }
 .line-botm {
     width: 100%;
@@ -476,15 +482,15 @@ border: 1px solid transparent !important;
 .btn6:hover{
     background: white !important;
     color: #000 !important;
+    transform: translateY(-3px);
 }
 .btn1-page2{
-    border: 2px solid transparent;
     transition: .4s;
 }
 .btn1-page2:hover{
-    border:2px solid #11fd9b;
-    background: transparent !important;
-    color: #11fd9b !important;
+    background:white !important;
+    color: black !important;
+    transform: translateY(-3px);
 }
 .btn2{
     transition: .4s;
@@ -493,15 +499,16 @@ border: 1px solid transparent !important;
 .btn2:hover{
     background: white !important;
     color: #000 !important;
+    transform: translateY(-3px);
 }
 .btn5{
     transition: .4s;
     border: 2px solid transparent;
 }
 .btn5:hover{
-    border:2px solid #11fd9b !important;
-    background: transparent !important;
-    color: #11fd9b !important;
+    background: white !important;
+    color: black !important;
+    transform: translateY(-3px);
 }
 /* mediaquiry */
 

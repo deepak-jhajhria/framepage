@@ -447,6 +447,10 @@ transform: translateY(-3px);
 .pt-142 {
     padding-top: 142px;
 }
+.btn-position{
+    top: 6px;
+    right: 14px;
+}
 .pt-30 {
     padding-top: 30px;
 }
@@ -461,9 +465,9 @@ transform: translateY(-3px);
     border-radius: 14px;
     background: #19161C;
     box-shadow: 0px 58px 80px 0px rgba(0, 0, 0, 0.16);
-    max-width: 530.647px;
+    max-width: 600.647px;
     min-height: 357px;
-    padding: 54px 49px;
+    padding: 34px 29px !important;
 }
 .p-13-21 {
     padding: 13px 21px !important;
@@ -614,6 +618,9 @@ transform: translateY(-3px);
 
     .pt-120 {
         padding-top: 80px;
+    }
+    .card_sec4 {
+        padding: 54px 49px !important;
     }
 }
 @media(min-width:992px) {

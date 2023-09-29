@@ -5,6 +5,9 @@
     font-family: "Helvetica";
     src: url(/assets/Helvetica-Font/Helvetica.ttf);
 }
+html{
+    scroll-behavior: smooth;
+}
 .cursr-pointer {
     cursor: pointer;
 }
@@ -499,6 +502,17 @@
         z-index: 4;
         cursor: pointer;
     }
+    .dropdown .dropdown-menu {
+        display: none;
+        border: none !important;
+        background:linear-gradient(99deg, #8C01FA -49.99%, #000 102.28%)!important;
+    }
+    .dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 1.125em;
+}
 }
 @media(min-width:768px) {
     .menu {

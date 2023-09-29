@@ -441,6 +441,10 @@ border: 1px solid transparent !important;
 .pt-142 {
     padding-top: 142px;
 }
+.btn-position{
+    top: 6px;
+    right: 14px;
+}
 .pt-30 {
     padding-top: 30px;
 }
@@ -455,9 +459,9 @@ border: 1px solid transparent !important;
     border-radius: 14px;
     background: #19161C;
     box-shadow: 0px 58px 80px 0px rgba(0, 0, 0, 0.16);
-    max-width: 530.647px;
+    max-width: 600.647px;
     min-height: 357px;
-    padding: 54px 49px;
+    padding: 34px 29px !important;
 }
 .p-13-21 {
     padding: 13px 21px !important;
@@ -477,12 +481,32 @@ border: 1px solid transparent !important;
     background: white !important;
     color: #000 !important;
 }
-#btn-back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-  }
+.btn1-page2{
+    border: 2px solid transparent;
+    transition: .4s;
+}
+.btn1-page2:hover{
+    border:2px solid #11fd9b;
+    background: transparent !important;
+    color: #11fd9b !important;
+}
+.btn2{
+    transition: .4s;
+    border: 1px solid white;
+}
+.btn2:hover{
+    background: white !important;
+    color: #000 !important;
+}
+.btn5{
+    transition: .4s;
+    border: 2px solid transparent;
+}
+.btn5:hover{
+    border:2px solid #11fd9b !important;
+    background: transparent !important;
+    color: #11fd9b !important;
+}
 /* mediaquiry */
 
 @media(min-width:576px) {
@@ -587,6 +611,9 @@ border: 1px solid transparent !important;
 
     .pt-120 {
         padding-top: 80px;
+    }
+    .card_sec4 {
+        padding: 54px 49px !important;
     }
 }
 @media(min-width:992px) {

@@ -237,8 +237,8 @@ html{
     height: 200px;
 }
 .wh-6-4{
-    width: 600px;
-    height: 425px;
+    width: 600px !important;
+    height: 425px !important;
 }
 .wh-3-4{
     max-width: 300px;

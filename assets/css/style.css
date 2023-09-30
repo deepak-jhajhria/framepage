@@ -178,14 +178,14 @@ html{
     transform: skewX(40deg);
 }
 .span4 {
-    rotate: 45deg;
+    transform: rotate(45deg);
     transition: .4s
 }
 .transition-4 {
     transition: .4s
 }
 .span5 {
-    rotate: -45deg;
+    transform: rotate(-45deg);
     position: relative;
     top: -7px;
     transition: .4s
@@ -221,13 +221,11 @@ html{
     height: 200px !important;
     background-color: #19161C;
 }
-
 .slick-slide {
     width: 300px !important;
     margin: 0 10px;
     /* add margin to the slides */
 }
-
 .slick-list {
     margin: 0 -10px !important;
 }
@@ -246,6 +244,7 @@ html{
     max-width: 300px;
     height: 425px;
 }
+
 /* section 6  */
 
 .lh-46 {
@@ -303,6 +302,7 @@ transform: translateY(-3px);
 .nav-text:hover{
     color: white !important;
 }
+
 /* page 2  */
 
 .gap-30 {
@@ -412,6 +412,7 @@ transform: translateY(-3px);
     opacity: 1;
     visibility: visible;
 }
+
 /* section-4 */
 
 .bg-sec4 {
@@ -510,6 +511,7 @@ transform: translateY(-3px);
     color: black !important;
     transform: translateY(-3px);
 }
+
 /* mediaquiry */
 
 @media(min-width:576px) {

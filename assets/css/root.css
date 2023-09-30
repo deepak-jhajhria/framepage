@@ -19,10 +19,6 @@
     --sky: #1FCFF1;
     --green-grey: #19FB9B;
     --green-grey2: #14F195;
-    --s-gradient1: linear-gradient(262deg, #19FB9B -8.01%, #8C01FA 100%);
-    --s-gradient2: linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%);
-    --s-gradient3: linear-gradient(265deg, #00FFBD -5.84%, #025B8C 111.58%);
-    --s-button: linear-gradient(99deg, #8C01FA -2.99%, #000 102.28%);
     /* font size  */
     --fs-xs: 10px;
     --fs-xs2: 11px;
@@ -130,28 +126,13 @@
 .bg-green-grey2 {
     background-color: var(--green-grey2) !important;
 }
-.bs-gradient1 {
-    color: var(--s-gradient1) !important;
-}
-.bs-gradient2 {
-    color: var(--s-gradient2) !important;
-}
 .bg-gradient2 {
-    background-color: var(--s-gradient2) !important;
-    background: var(--s-gradient-2, linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%));
+    background: var(--s-gradient-2, linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%)) !important;
 }
 .bg-gradientnav2{
-    background-color: var(--s-gradient2) !important;
-    background: var(--s-gradient-2, linear-gradient(260deg, #0047FF 15.37%, #00BCD4 109.53%));
-}
-.bs-gradient3 {
-    color: var(--s-gradient3) !important;
-}
-.bs-button {
-    color: var(--s-button) !important;
+    background: var(--s-gradient-2, linear-gradient(260deg, #0047FF 15.37%, #00BCD4 109.53%)) !important;
 }
 .bg-s-gradient {
-    background-color: var(--s-button) !important;
     background: var(--S-button, linear-gradient(99deg, #8C01FA -2.99%, #000 102.28%)) !important;
 }
 /* font size  */

@@ -20,3 +20,27 @@ navbtn.addEventListener("click", function () {
     span2.classList.remove("span5");
     span3.classList.remove("span6");
 })
+ 
+$(document).ready(function(){
+  // hide #back-top first
+  $("#back-top").hide();
+  // fade in #back-top
+  $(function () {
+      $(window).scroll(function () {
+          if ($(this).scrollTop() > 500) {
+              $('#back-top').fadeIn();
+          } else {
+              $('#back-top').fadeOut();
+    
+          }
+      });
+      // scroll body to 0px on click
+      $('a#back-top').click(function () {
+          $('body,html').animate({
+              scrollTop: 0
+          }, 100);
+          return false;
+      });
+  });
+
+});
